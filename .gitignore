@@ -1,0 +1,17 @@
+node_modules/
+bower_components/
+*.log
+
+build/
+dist/
+
+# IntelliJ project files
+.idea/
+*.ipr
+*.iws
+out
+npm-debug.log
+
+app/
+bin/
+public/
