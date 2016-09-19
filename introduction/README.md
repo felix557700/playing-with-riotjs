@@ -33,4 +33,9 @@
     - unmount
     
 # testing
-`npm install --save-dev karma jasmine-core karma-jasmine karma-chrome-launcher`
+`npm install --save-dev chai karma karma-chai karma-mocha karma-mocha-reporter karma-phantomjs-launcher karma-riot moch
+ a phantomjs-prebuilt`
+ 
+- `karma init`
+
+- write some unit tests for tag logic

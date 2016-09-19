@@ -23,11 +23,11 @@
 		];
 
 		this.addPeople = function (e) {
-			this.people.push({name: this.person.value})
+			this.people.push({name: this.person.value});
 		};
 
 		this.removePeople = function (e) {
-			this.people = this.people.splice(e.item.i, 1)
+			this.people.splice(e.item.i, 1);
 		};
 
 	</script>

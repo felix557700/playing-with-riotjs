@@ -12,9 +12,14 @@
     "riot": "^2.6.1"
   },
   "devDependencies": {
-    "jasmine-core": "^2.5.2",
+    "chai": "^3.5.0",
     "karma": "^1.3.0",
-    "karma-chrome-launcher": "^2.0.0",
-    "karma-jasmine": "^1.0.2"
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^1.1.1",
+    "karma-mocha-reporter": "^2.1.0",
+    "karma-phantomjs-launcher": "^1.0.2",
+    "karma-riot": "^1.1.0",
+    "mocha": "^3.0.2",
+    "phantomjs-prebuilt": "^2.1.12"
   }
 }
