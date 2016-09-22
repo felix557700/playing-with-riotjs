@@ -39,3 +39,5 @@
 - `karma init`
 
 - write some unit tests for tag logic
+
+- run all tests with `karma start`

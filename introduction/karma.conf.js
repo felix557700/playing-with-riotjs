@@ -9,16 +9,18 @@ module.exports = function (config) {
 			'karma-mocha-reporter',
 			'karma-phantomjs-launcher',
 			'karma-chai',
-			'karma-riot'
+			'karma-riot',
+			'karma-coverage'
 		],
 		files: [
+			'node_modules/chai/chai.js',
 			'*.tag',
 			'test/**/*.js'
 		],
 		exclude: [],
 
 		preprocessors: {
-			'**/*.tag': ['riot']
+			'**/*.tag': ['riot', 'coverage']
 		},
 
 		port: 9876,
@@ -27,7 +29,19 @@ module.exports = function (config) {
 		// possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
 		logLevel: config.LOG_INFO,
 
-		reporters: ['mocha'],
+		reporters: ['mocha', 'coverage'],
+
+		coverageReporter: {
+			dir: 'coverage/',
+			reporters: [
+				{ type: 'text' },
+				{
+					type: 'html',
+					subdir: '.'
+				}
+			]
+		},
+
 		autoWatch: true,
 		browsers: ['PhantomJS'],
 		singleRun: false,
