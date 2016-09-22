@@ -1,0 +1,18 @@
+language: node_js
+
+node_js:
+  - '5'
+
+sudo: false
+
+cache:
+  directories:
+    - node_modules
+
+env:
+  - TEST_DIR=introduction
+
+before_script:
+  - npm install -g karma
+
+script: cd $TEST_DIR && npm install && npm test
