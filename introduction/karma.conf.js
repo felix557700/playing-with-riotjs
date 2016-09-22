@@ -42,9 +42,7 @@ module.exports = function (config) {
 			]
 		},
 
-		autoWatch: true,
 		browsers: ['PhantomJS'],
-		singleRun: false,
 		concurrency: Infinity
 	})
 };
