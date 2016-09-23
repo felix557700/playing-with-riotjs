@@ -37,7 +37,11 @@ module.exports = function (config) {
 				{ type: 'text' },
 				{
 					type: 'html',
-					subdir: '.'
+					subdir: 'html'
+				},
+				{
+					type: 'lcovonly',
+					subdir: 'lcov'
 				}
 			]
 		},

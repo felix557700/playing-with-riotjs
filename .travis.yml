@@ -16,3 +16,5 @@ before_script:
   - npm install -g karma
 
 script: cd $TEST_DIR && npm install && npm test
+
+after_script: npm install coveralls && cat ./coverage/lcov/lcov.info | coveralls
