@@ -1,4 +1,4 @@
-# playing-with-riotjs
+# Introduction
 
 `npm init`
 `npm install riot --save`
@@ -33,7 +33,7 @@
     - unmount
     
 # testing
-`npm install --save-dev chai karma karma-chai karma-mocha karma-mocha-reporter karma-phantomjs-launcher karma-riot moch
+- `npm install --save-dev chai karma karma-chai karma-mocha karma-mocha-reporter karma-phantomjs-launcher karma-riot moch
  a phantomjs-prebuilt`
  
 - `karma init`
