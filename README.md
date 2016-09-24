@@ -1,3 +1,3 @@
 ### Set of examples for such a simple, cool and minimalistic framework/library: [Riot.js](http://riotjs.com/)
 
-[![Build Status](https://travis-ci.org/felix557700/playing-with-riotjs.svg?branch=master)](https://travis-ci.org/felix557700/playing-with-riotjs) [![Coverage Status](https://coveralls.io/repos/github/felix557700/playing-with-riotjs/badge.svg?branch=master)](https://coveralls.io/github/felix557700/playing-with-riotjs?branch=master)
+[![Build Status](https://travis-ci.org/felix557700/playing-with-riotjs.svg?branch=master)](https://travis-ci.org/felix557700/playing-with-riotjs) [![Coverage Status](https://coveralls.io/repos/github/felix557700/playing-with-riotjs/badge.svg?branch=master)](https://coveralls.io/github/felix557700/playing-with-riotjs?branch=master) [![License](http://img.shields.io/badge/license-GPLv3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0.html) [![Dependencies](https://david-dm.org/felix557700/playing-with-riotjs.svg?path=introduction)]()
