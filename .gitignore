@@ -1,17 +1,12 @@
-node_modules/
-bower_components/
+*/node_modules/
+*/bower_components/
 *.log
-coverage/
-build/
-dist/
+*/coverage/
+*/dist/
+*/dest/
+*/npm-debug.log
 
 # IntelliJ project files
 .idea/
 *.ipr
 *.iws
-out
-npm-debug.log
-
-app/
-bin/
-public/
