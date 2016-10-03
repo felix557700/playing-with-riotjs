@@ -1,6 +1,7 @@
 # Router
 
 `npm init`
+
 `npm install riot --save`
 
 - Built-in router
