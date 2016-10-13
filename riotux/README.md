@@ -7,3 +7,7 @@
 - Todo app with 2 components (tags) which are communicating via riotux
 - Setup actions and store and afterwards tags can subscribe or emit events
 - Riotux store is single source of truth => no need for managing tag state
+
+<img src=https://s10.postimg.org/mrsykidux/image.png />
+---
+<img src=https://s10.postimg.org/g02jhnovd/image.png />
