@@ -11,7 +11,12 @@
 
 	<script>
 		this.addTask = function () {
-			riotux.action('tasks', 'add', this.inputTask.value)
+			let inputValue = this.inputTask.value
+
+			if (inputValue.length !== 0) {
+				riotux.action('tasks', 'add', inputValue)
+				this.inputTask.value = ''
+			}
 		}
 	</script>
 
